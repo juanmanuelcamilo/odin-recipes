@@ -1,0 +1,60 @@
+/*--- Styles for the Index page ---*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.main-body {
+  text-align: center;
+}
+
+.main-title {
+  font-size: 40px;
+  font-weight: 600;
+  padding-top: 30px;
+  text-decoration: underline;
+}
+
+.main-image {
+  width: 300px;
+  border: 3px solid black;
+  margin-top: 20px;
+  border-radius: 50%;
+}
+
+.list-container {
+  display: block;
+  margin: 0 auto;
+  width: min(70%, 250px);
+  margin-top: 20px;
+  text-align: left;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 15%;
+}
+
+.recipes-list {
+  padding: 10px;
+  font-size: 20px;
+}
+
+.recipe-item {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.recipe-anchor:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover,
+a:focus {
+  color: #555;
+}
